@@ -1,0 +1,33 @@
+# segredos e ambiente
+.env
+.env.*
+!.env.example
+
+# dados e persistência
+data/
+uploads/
+logs/
+cron/output/
+
+# bancos locais
+*.db
+*.db-shm
+*.db-wal
+
+# caches e sessões
+cache/
+sessions/
+
+# artefatos operacionais
+Downloads/
+voice-memos/
+*.zip
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# sistema
+.DS_Store
